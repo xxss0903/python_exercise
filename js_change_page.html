@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html    lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>使用Javascript改变HTML内容的测试-起飞网</title>
+    <script type="text/javascript">
+           document.write("我是来自JS的内容~");
+        
+        function writeHtmlLater() {
+            document.write("哈哈，我把内容覆盖了~");
+        }
+    </script>
+    </head>
+<body>
+    <h1>使用Javascript改变HTML内容的测试-起飞网</h1>
+    <p>   
+
+
+    <input type="button" value="点击覆盖所有内容" onclick="writeHtmlLater()" /></p>
+   </body>
+</html>
